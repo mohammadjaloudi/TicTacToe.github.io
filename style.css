@@ -1,0 +1,40 @@
+body {
+    background-color: aquamarine;
+    font-family: 'Roboto', sans-serif;
+}
+#gameContainer {
+    text-align: center;
+}
+.cell {
+    width: 75px;
+    height: 75px;
+    border: 2px solid rgb(32, 31, 31);
+    box-shadow: 0 0 1px 2px;
+    font-size: 50px;
+    cursor: pointer;
+}
+#cellContainer {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    width: 225px;
+    margin: 0 auto;
+}
+h1 {
+    margin: 20px 0;
+}
+#result-container {
+    margin-top: 20px;
+}
+#result {
+    margin: 0;
+}
+#restartBtn{
+    background-color: rgb(98, 98, 241);
+    color: white;
+    border-radius: 8px;
+    cursor: pointer;
+}
+#restartBtn:hover{
+    background-color: rgb(45, 45, 184);
+    color: rgb(198, 197, 197);
+}
